@@ -58,7 +58,7 @@ class Student
   def self.find_by_name(name)
     sql = <<-SQL
       SELECT *
-      FROM songs
+      FROM students
       WHERE name = ?
       LIMIT 1
     SQL
