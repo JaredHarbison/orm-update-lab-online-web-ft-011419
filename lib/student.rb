@@ -52,9 +52,9 @@ class Student
   
   def self.new_from_db 
     new_student = self.new 
-    new_student = 
-    new_student 
-    new_student
+    new_student.id 
+    new_student.name 
+    new_student.grade 
   end 
     
   def self.find_by_name
