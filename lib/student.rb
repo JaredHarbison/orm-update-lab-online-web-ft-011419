@@ -32,7 +32,7 @@ class Student
     VALUES (?, ?) 
     SQL
     DB[:conn].execute(sql, self.name, self.grade)
-    @id = 
+    @id = DB[:conn].execute()
     
     
   # Remember, you can access your database connection anywhere in this class
