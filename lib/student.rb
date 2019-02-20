@@ -55,6 +55,7 @@ class Student
     new_student.id 
     new_student.name 
     new_student.grade 
+    new_student
   end 
     
   def self.find_by_name
