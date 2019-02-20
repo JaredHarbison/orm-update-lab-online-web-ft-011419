@@ -50,7 +50,7 @@ class Student
     student
   end 
   
-  def self.new_from_db 
+  def self.new_from_db(new_student)
     new_student = self.new 
     new_student.id 
     new_student.name 
